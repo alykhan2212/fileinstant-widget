@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "fileinstant latest software embeddable widget",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@alykhan2212"
-  },  
+    "registry": "https://npm.pkg.github.com/@alykhan2212"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
