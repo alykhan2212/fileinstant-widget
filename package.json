@@ -1,7 +1,10 @@
 {
-  "name": "test-component",
-  "version": "0.0.2",
-  "description": "Stencil Component Starter",
+  "name": "fileinstant-widget",
+  "version": "1.0.0",
+  "description": "fileinstant latest software embeddable widget",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@alykhan2212"
+  },  
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -9,7 +12,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/test-component/test-component.js",
+  "unpkg": "dist/fileinstant-widget/fileinstant-widget.js",
   "files": [
     "dist/",
     "loader/"
