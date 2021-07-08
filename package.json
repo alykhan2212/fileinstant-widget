@@ -27,5 +27,14 @@
   "devDependencies": {
     "@stencil/core": "^1.8.4"
   },
-  "license": "MIT"
+  "author": "Ali khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alykhan2212/fileinstant-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alykhan2212/fileinstant-widget/issues"
+  },
+  "homepage": "https://github.com/alykhan2212/fileinstant-widget#readme"
 }
