@@ -1,1 +1,0 @@
-System.register(["./p-8e3b3850.system.js","./p-d996a800.system.js"],(function(){"use strict";var t,e;return{setters:[function(e){t=e.b},function(t){e=t.p}],execute:function(){e().then((function(e){return t([["p-d616d791.system",[[1,"fileinstant-widget-component",{softwares:[32]}]]]],e)}))}}}));
