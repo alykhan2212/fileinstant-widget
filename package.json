@@ -1,6 +1,6 @@
 {
   "name": "fileinstant-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fileinstant latest software embeddable widget",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
