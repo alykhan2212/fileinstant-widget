@@ -13,7 +13,7 @@ export class MyComponent {
 
 
   componentWillLoad() {
-    return fetch("http://api-fileinstant.herokuapp.com/api/latest-software/5")
+    return fetch("https://api-fileinstant.herokuapp.com/api/latest-software/5")
       .then(response => response.json())
       .then(data => {
         this.softwares = data.data;
@@ -40,7 +40,7 @@ export class MyComponent {
               )}
             </ul>
           </div>
-          <div class="new">Powered by Fieinstant</div>
+          <div class="brand_bottom">Powered by Fieinstant</div>
         </div>
       </div>
     )
