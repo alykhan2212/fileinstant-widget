@@ -31,11 +31,11 @@ export class MyComponent {
               {this.softwares.map(software =>
                 <li>
                   <img
-                    src={`https://fileinstant.herokuapp.com/uploads/${software.softwareID.softwareIcon}`}
+                    src={`https://api.nexeclient.xyz/uploads/${software.softwareID.softwareIcon}`}
                     alt=''
                     class='img-fluid'
                   />
-                  <a href={`https://proxy-omega.vercel.app/download/${software.softwareID.softwareName.trim().split(" ").join("-").toLowerCase()}/${software.softwareID._id.toString()}`}>{software.softwareID.softwareName + " " + software.softwareID.softwareVersion}</a>
+                  <a href={`https://nexeclient.xyz/download/${software.softwareID.softwareName.trim().split(" ").join("-").toLowerCase()}/${software.softwareID._id.toString()}`}>{software.softwareID.softwareName + " " + software.softwareID.softwareVersion}</a>
                 </li>
               )}
             </ul>
