@@ -13,7 +13,7 @@ export class MyComponent {
 
 
   componentWillLoad() {
-    return fetch("https://api.nexeclient.xyz/api/latest-software/5/")
+    return fetch("https://api.fileroots.com/api/latest-software/5/")
       .then(response => response.json())
       .then(data => {
         this.softwares = data.data;
@@ -31,11 +31,11 @@ export class MyComponent {
               {this.softwares.map(software =>
                 <li>
                   <img
-                    src={`https://api.nexeclient.xyz/uploads/${software.softwareID.softwareIcon}`}
+                    src={`https://api.fileroots.com/uploads/${software.softwareID.softwareIcon}`}
                     alt=''
                     class='img-fluid'
                   />
-                  <a href={`https://nexeclient.xyz/download/${software.softwareID.softwareName.trim().split(" ").join("-").toLowerCase()}/${software.softwareID._id.toString()}`}>{software.softwareID.softwareName + " " + software.softwareID.softwareVersion}</a>
+                  <a href={`https://fileroots.com/download/${software.softwareID.softwareName.trim().split(" ").join("-").toLowerCase()}/${software.softwareID._id.toString()}`}>{software.softwareID.softwareName + " " + software.softwareID.softwareVersion}</a>
                 </li>
               )}
             </ul>
